@@ -21,7 +21,7 @@ li{
     padding-bottom: 32px;
     padding-top: 32px;
     height: 60px;
-    background-color: #724796;
+    background-color: #b98b44;
 }
 
 .header-menu nav{
@@ -46,7 +46,7 @@ li{
 .principal{
     height:100vh;
     display:flex;
-    background-color:#eaea;
+    background-color:rgba(250, 231, 181, 0.667);
 }
 
 .container{
@@ -68,7 +68,7 @@ li{
 
 .nome-completo {
 font-size: 36px;
-color: #ff4dbc;
+color: #553c16;
 font-weight:700;
 height:45px;
 }
@@ -76,7 +76,7 @@ height:45px;
 .profissao{
     font-size: 20px;
     line-height: 32px;
-    color:#C6B5D5;
+    color:#adaba7;
 
 }
 
@@ -89,7 +89,7 @@ margin-bottom: 100px
 
 .topico-principal{
     font-size: 36px ;
-    color:#ff4dbc;
+    color:#a0783c;
 }
 
 .lista-item{
@@ -103,13 +103,13 @@ margin-bottom: 100px
 .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px;
-    color:#661e4b;
+    color:#74706a;
     font-weight: 700;
 }
 
 .lista-local{
     font-size:18px;
-    color:#2F80ED;
+    color:#b68d41;
 }
 
 .lista-descricao{
@@ -121,19 +121,19 @@ margin-bottom: 100px
 }
 
 .wrapper-portfolio{
-    background-color:#eaea;
+    background-color:rgba(250, 231, 181, 0.667);
     display: flex;
     flex-direction: column;
 }
 
 .subtitulo-lista{
     font-size: 18px;
-    color:#828282;
+    color:#918d85;
     font-weight: 500;
 }
 
 .footer{
-    background-color:#724796;
+    background-color:#b98b44;
     height: 30vh;
     display: flex;
     align-items: center;
@@ -156,4 +156,21 @@ margin-bottom: 100px
     margin-bottom: 16px;
     display: flex;
     align-items: center;
+}
+.desenho{
+    width: 300px;
+    height: auto;
+}
+.descritivo{
+    font-size: 15px;
+    color: #92908d;
+    font-weight:700;
+    height:45px;
+}
+.descritivo-portfolio{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+    color:#828282;
+    font-weight:300;
 }
