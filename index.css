@@ -16,12 +16,12 @@ li{
 .header-menu{
     display: flex;
     position: absolute;
-    width: 100%;
+    width:90vh;
     padding: 8px;
     padding-bottom: 32px;
     padding-top: 32px;
     height: 60px;
-    background-color: #b98b44;
+    background-color: rosybrown;
 }
 
 .header-menu nav{
@@ -46,7 +46,7 @@ li{
 .principal{
     height:100vh;
     display:flex;
-    background-color:rgba(250, 231, 181, 0.667);
+    background-color: rosybrown;
 }
 
 .container{
@@ -67,10 +67,10 @@ li{
 }
 
 .nome-completo {
-font-size: 36px;
-color: #553c16;
-font-weight:700;
-height:45px;
+    font-size: 36px;
+    color: #cfaab9;
+    font-weight:700;
+    height:45px;
 }
 
 .profissao{
@@ -81,10 +81,10 @@ height:45px;
 }
 
 .article-lista{
-display:flex;
-flex-direction: column;
-margin-top:100px;
-margin-bottom: 100px
+    display:flex;
+    flex-direction: column;
+    margin-top:100px;
+    margin-bottom: 100px
 }
 
 .topico-principal{
@@ -103,13 +103,13 @@ margin-bottom: 100px
 .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px;
-    color:#74706a;
+    color:rosybrown;
     font-weight: 700;
 }
 
 .lista-local{
     font-size:18px;
-    color:#b68d41;
+    color:#a341b6;
 }
 
 .lista-descricao{
@@ -133,7 +133,7 @@ margin-bottom: 100px
 }
 
 .footer{
-    background-color:#b98b44;
+    background-color:rosybrown;
     height: 30vh;
     display: flex;
     align-items: center;
@@ -158,7 +158,7 @@ margin-bottom: 100px
     align-items: center;
 }
 .desenho{
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 .descritivo{
@@ -174,3 +174,31 @@ margin-bottom: 100px
     color:#828282;
     font-weight:300;
 }
+
+
+/*REDES SOCIAIS */
+
+.footer-container {
+    text-align: center;
+  }
+  
+  .redes-socias__link {
+      display: inline-block;
+      width: 20%;
+      background-color:#e5e917;
+      padding: 2rem 0;
+      margin: 0 1rem;
+      text-align: center;
+      color: white;
+      border-radius:1.5rem;
+  }
+  
+  .redes-sociais__img {
+      margin-bottom: 0.5rem;
+  }
+  .rede-social2{
+      padding: 2rem 0;
+      margin: 0 1rem;
+      text-align: center;
+  
+  }
